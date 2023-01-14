@@ -145,7 +145,34 @@
                 <div class="size">43</div>
             </div>
     
-            <button class="productButton">BUY NOW!</button>
+            <button class="productButton" id="buyProduct">BUY NOW!</button>
+        </div>
+
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+
+            <label> Name and Surname </label>
+            <input type="text" placeholder="John Smith..." class="payInput">
+
+            <label> Phone Number </label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            
+            <label> Address </label>
+            <input type="text" placeholder="Elton st 21 22-145" class="payInput">
+
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./images/visa.png" alt="visa" class="cardIcon">
+                <img src="./images/master.png"  alt="mastercard" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
         </div>
         
     </section> <!-- END PRODUCT -->
