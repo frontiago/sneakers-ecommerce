@@ -374,6 +374,27 @@ label {
     color: #000;
 }
 
+.gallery {
+    padding: 50px;
+    display: flex;
+}
+
+.galleryTitle {
+    text-align: center;
+    margin: 1.2rem 0;
+    font-size: 1.8rem;
+}
+
+.galleryItem {
+    flex: 1;
+    padding: 50px;
+}
+
+.galleryImg {
+    width: 100%;
+}
+
+
 
 
 div iframe {
