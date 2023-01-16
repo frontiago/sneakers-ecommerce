@@ -8,4 +8,4 @@
 
 ---
 
-![Print](./images/print-sneakers-ecommerce.png)
+![Print](./images/print-site.png)
