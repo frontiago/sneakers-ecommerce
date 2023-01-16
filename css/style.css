@@ -12,6 +12,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 nav {
     background-color: #111;
     color: white;
@@ -428,6 +432,66 @@ label {
     padding: 15px;
     font-weight: 600;
     cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footerMenuTitle {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.footerList {
+    padding: 0;
+}
+
+.footerListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerInput {
+    padding: 5px;
+}
+
+.footerButton {
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footerIcons {
+    display: flex;
+}
+
+.footerIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-weight: 300;
+    font-size: 14px;
 }
 
 div iframe {
