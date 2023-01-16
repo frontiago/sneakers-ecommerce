@@ -403,6 +403,7 @@ label {
 }
 
 .newSeason {
+    position: relative;
     display: flex;
     height: 600px;
 }
@@ -494,6 +495,8 @@ footer {
     font-size: 14px;
 }
 
+
 div iframe {
     display: none;
 }
+
