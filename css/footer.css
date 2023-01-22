@@ -1,5 +1,6 @@
 footer {
     display: flex;
+    position: relative;
 }
 
 .footerLeft {
@@ -55,4 +56,39 @@ footer {
 .copyright {
     font-weight: 300;
     font-size: 14px;
+}
+
+@media screen and (max-width:768px) {
+    
+    footer {
+        width: 100%;
+        min-height: 200px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 55rem;
+        bottom: 0;
+    }
+
+    .footerLeft {
+        padding: 40px 20px 0 20px;
+        width: 90%;
+    }
+
+    .footerRight {
+        padding: 40px 20px 0 20px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footerIcons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

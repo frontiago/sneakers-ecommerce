@@ -161,3 +161,40 @@ label {
     background-color: #fff;
     color: #000;
 }
+
+@media screen and (max-width:768px) {
+        
+    .product {
+        clip-path: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .producImg {
+        width: 80%;
+    }
+
+    .productDetails {
+        width: 100%;
+        margin-top: -10%;
+        margin-left: 15%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .productTitle {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .payment {
+        width: 90%;
+        padding: 20px;
+    }    
+}

@@ -52,3 +52,23 @@ nav {
     color: lightgrey;
     font-weight: 400;
 }
+
+@media screen and (max-width:769px) {
+    nav {
+        padding: 20px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .navBottom {
+        flex-wrap: wrap;
+    }
+
+    .menuItem {
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}

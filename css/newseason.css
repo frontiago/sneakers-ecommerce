@@ -30,3 +30,14 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media screen and (max-width:768px) {
+    .newSeason {
+        flex-direction: column;
+       
+    }
+
+    .newSeasonItem:nth-child(2) {
+        padding: 50px;
+    }    
+}

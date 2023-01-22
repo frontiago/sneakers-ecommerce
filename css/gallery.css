@@ -21,3 +21,9 @@
 .galleryImg:nth-child(3) {
     height: 150%;
 }
+
+@media screen and (max-width:768px) {
+    .gallery {
+        display: none;
+    }
+}
