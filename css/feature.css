@@ -1,0 +1,32 @@
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;    
+}
+
+.featureIcon {
+    width: 65px;
+    height: 65px;
+}
+
+.featureTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.featureDescription {
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: gray;
+}

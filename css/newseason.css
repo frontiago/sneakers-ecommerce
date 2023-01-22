@@ -1,0 +1,32 @@
+.newSeason {
+    position: relative;
+    display: flex;
+    height: 600px;
+}
+
+.newSeasonItem {
+    flex: 1;
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.newSeasonImg {
+    width: 100%;
+    height: 100%;
+}
+
+.newSeasonTitle {
+    font-size: 40px;
+}
+
+.newSeasonButton {
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}

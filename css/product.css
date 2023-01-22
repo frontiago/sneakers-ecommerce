@@ -1,0 +1,163 @@
+.product {
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.payment {
+    width: 500px;
+    height: 650px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 30px 50px 10px 50px;
+    display: none;
+    flex-direction: column;
+    -webkit-box-shadow: -5px -9px 44px -6px rgba(0,0,0,0.1);
+    box-shadow: -5px -9px 44px -6px rgba(0,0,0,0.1);
+}
+
+.payTitle {
+    font-size: 21px;
+    color: lightgray;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.payInput {
+    padding: 10px;
+    margin: 10px 0 25px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm {
+    width: 30%;
+    height: 32px;
+    padding: 1rem;
+}
+
+.payInput::placeholder {
+    color: rgb(163,163,163);
+}
+
+.payButton {
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    left: 0;    
+    -webkit-box-shadow: -5px -9px 44px -6px rgba(0,0,0,0.1);
+    box-shadow: -5px -9px 44px -6px rgba(0,0,0,0.1);
+    background-color: #369e62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    border: none;
+    position: absolute;
+    top: 2%;
+    right: 0;
+    font-size: 1.3rem;
+    color: crimson;
+    cursor: pointer;
+}
+
+.cardIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cardIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.productImg {
+    width: 50%;
+}
+
+.productDetails {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 40%;
+    padding: 50px;
+}
+
+.productTitle {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.productPrice {
+    margin-bottom: 1.5rem;
+}
+
+.productDescription {
+    font-size: 24px;
+    color: gray;
+}
+
+
+.colors, .sizes {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.color {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.color:last-child {
+    background: darkblue;
+}
+
+.size {
+    padding: 5px 10px;
+    margin-right: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.productButton {
+    float: right;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.productButton:hover {
+    background-color: #fff;
+    color: #000;
+}
